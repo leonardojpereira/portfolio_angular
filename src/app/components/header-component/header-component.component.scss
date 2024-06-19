@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 26px 0;
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .logo-text {
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+    .header-nav {
+        display: flex;
+        gap: 30px;
+
+        ul {
+            display: flex;
+            gap: 50px;
+            list-style: none;
+
+            li {
+                .nav-link {
+                    color: white;
+                    cursor: pointer;
+                    font-size: 20px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    transition: 0.3s;
+        
+                    &:hover {
+                        color: #075fe4;
+                    }
+                }
+            }
+        }
+      
+    }
+}
